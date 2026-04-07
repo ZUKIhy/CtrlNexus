@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Páginas importantes
+Allow: /index.html
+Allow: /equipe.html
+Allow: /servicos.html
+Allow: /contato.html
+
+# Arquivos de SEO
+Allow: /sitemap.xml
+Allow: /robots.txt
+
+# Bloquear arquivos temporários
+Disallow: /temp/
+Disallow: /*.tmp
+Disallow: /*.bak
+
+Sitemap: https://www.gdzconsultoria.com.br/sitemap.xml

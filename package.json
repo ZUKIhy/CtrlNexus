@@ -1,0 +1,35 @@
+{
+  "name": "gdz-consultoria",
+  "version": "1.0.0",
+  "description": "Site institucional da GDZ Consultoria",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "build": "echo 'Build process not needed for static site'",
+    "deploy": "echo 'Deploy to your hosting platform'",
+    "test": "echo 'Run manual tests - see docs/TESTING.md'",
+    "lint": "echo 'No linting configured yet'"
+  },
+  "keywords": [
+    "consultoria",
+    "seguranca",
+    "infraestrutura",
+    "cloud",
+    "ti",
+    "website",
+    "static-site"
+  ],
+  "author": "GDZ Consultoria",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SEU_USUARIO/gdz-consultoria.git"
+  },
+  "homepage": "https://www.gdzconsultoria.com.br/",
+  "bugs": {
+    "url": "https://github.com/SEU_USUARIO/gdz-consultoria/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

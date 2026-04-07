@@ -1,0 +1,9 @@
+# Configurações para arquivos específicos
+*.css text eol=lf
+*.js text eol=lf
+*.html text eol=lf
+
+# Imagens como binários
+*.png binary
+*.jpg binary
+*.ico binary
