@@ -40,10 +40,9 @@
       <div>
         <h2>Fale com a GDZ</h2>
         <p class="lead">Use o formulário abaixo ou clique no botão de WhatsApp para iniciar uma conversa imediata.</p>
-        <form action="https://formsubmit.co/gdzconsultoria@outlook.com" method="POST">
+        <form id="contact-form" action="https://formsubmit.co/gdzconsultoria@outlook.com" method="POST">
           <input type="hidden" name="_subject" value="Novo contato pelo site - GDZ Consultoria">
           <input type="hidden" name="_template" value="table">
-          <input type="hidden" name="_captcha" value="false">
           <input type="hidden" id="form-next-url" name="_next" value="https://zukihy.github.io/GDZConsultoria-em-seguranca-e-infra/contato.html?enviado=1">
           <input type="text" name="_honey" style="display:none">
 
@@ -61,6 +60,7 @@
 
           <button type="submit">Enviar mensagem</button>
         </form>
+        <p id="form-status" class="form-feedback" role="status" aria-live="polite"></p>
         <p>Ao enviar pela primeira vez, o FormSubmit pode solicitar a confirmação do e-mail de destino antes de começar a encaminhar as mensagens.</p>
       </div>
 
