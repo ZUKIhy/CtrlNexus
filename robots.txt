@@ -3,9 +3,12 @@ Allow: /
 
 # Páginas importantes
 Allow: /index.html
+Allow: /blog.html
 Allow: /equipe.html
 Allow: /servicos.html
 Allow: /contato.html
+Allow: /privacidade.html
+Allow: /parcerias.html
 
 # Arquivos de SEO
 Allow: /sitemap.xml
@@ -16,4 +19,4 @@ Disallow: /temp/
 Disallow: /*.tmp
 Disallow: /*.bak
 
-Sitemap: https://www.gdzconsultoria.com.br/sitemap.xml
+Sitemap: https://gdzconsultoria.com/sitemap.xml

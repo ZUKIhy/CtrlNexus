@@ -1,6 +1,6 @@
 Contact: mailto:contato@gdzconsultoria.com.br
-Contact: https://www.gdzconsultoria.com.br/contato.html
+Contact: https://gdzconsultoria.com/contato.html
 Expires: 2027-04-07T00:00:00.000Z
 Preferred-Languages: pt-BR, en
-Canonical: https://www.gdzconsultoria.com.br/.well-known/security.txt
-Policy: https://www.gdzconsultoria.com.br/docs/SECURITY.md
+Canonical: https://gdzconsultoria.com/.well-known/security.txt
+Policy: https://gdzconsultoria.com/docs/SECURITY.md

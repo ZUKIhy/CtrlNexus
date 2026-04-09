@@ -3,23 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="GDZ Consultoria - solucoes em seguranca, infraestrutura e cloud para empresas.">
+  <meta name="description" content="Entre em contato com a GDZ Consultoria para solicitar um diagnóstico, iniciar um projeto de segurança, cloud ou infraestrutura e captar leads com rapidez.">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="GDZ Consultoria">
-  <meta property="og:description" content="Solucoes em seguranca, infraestrutura, cloud e continuidade de negocios.">
+  <meta property="og:title" content="Contato | GDZ Consultoria">
+  <meta property="og:description" content="Formulário inteligente, atendimento online e canais rápidos para falar com a GDZ Consultoria.">
   <meta property="og:image" content="img/logo.png">
+  <link rel="canonical" href="https://gdzconsultoria.com/contato.html">
   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-  <title>GDZ Consultoria - Contato</title>
-  <link rel="stylesheet" href="css/style.min.css?v=20260407-2">
+  <title>Contato | GDZ Consultoria</title>
+  <link rel="stylesheet" href="css/style.min.css?v=20260409-6">
 </head>
 <body>
   <header class="page-header">
     <div class="brand">
       <div>
-        <h1>Contato</h1>
+        <h1>Contato e atendimento online</h1>
       </div>
     </div>
-    <p>Entre em contato para agendar um diagnóstico, conhecer nossos serviços ou iniciar seu projeto de segurança e infraestrutura.</p>
+    <p>Entre em contato para agendar um diagnóstico, conhecer nossos serviços ou iniciar seu projeto de segurança, cloud e infraestrutura.</p>
   </header>
 
   <nav>
@@ -32,6 +33,8 @@
     <a href="diferenciais.html">Diferenciais</a>
     <a href="beneficios.html">Benefícios</a>
     <a href="consideracoes.html">Considerações</a>
+    <a href="blog.html">Blog</a>
+    <a href="parcerias.html">Parcerias</a>
     <a href="contato.html" class="active">Contato</a>
   </nav>
 
@@ -39,44 +42,168 @@
     <section class="page-grid">
       <div>
         <h2>Fale com a GDZ</h2>
-        <p class="lead">Use o formulário abaixo ou clique no botão de WhatsApp para iniciar uma conversa imediata.</p>
+        <p class="lead">Preencha o formulário abaixo e nossa equipe retornará com um direcionamento inicial sobre segurança, cloud, infraestrutura ou continuidade.</p>
         <form id="contact-form" action="https://formsubmit.co/gdzconsultoria@outlook.com" method="POST">
           <input type="hidden" name="_subject" value="Novo contato pelo site - GDZ Consultoria">
           <input type="hidden" name="_template" value="table">
-          <input type="hidden" id="form-next-url" name="_next" value="https://zukihy.github.io/GDZConsultoria-em-seguranca-e-infra/contato.html?enviado=1">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" id="form-next-url" name="_next" value="https://gdzconsultoria.com/contato.html?enviado=1">
           <input type="text" name="_honey" style="display:none">
 
-          <label for="name">Seu nome</label>
-          <input id="name" type="text" name="name" placeholder="Seu nome" required>
+          <div class="form-row">
+            <div>
+              <label for="name">Seu nome</label>
+              <input id="name" type="text" name="name" placeholder="Seu nome" required>
+            </div>
+            <div>
+              <label for="company">Empresa</label>
+              <input id="company" type="text" name="company" placeholder="Nome da empresa">
+            </div>
+          </div>
 
-          <label for="email">Seu e-mail</label>
-          <input id="email" type="email" name="email" placeholder="Seu e-mail" required>
+          <div class="form-row">
+            <div>
+              <label for="email">Seu e-mail</label>
+              <input id="email" type="email" name="email" placeholder="Seu e-mail" required>
+            </div>
+            <div>
+              <label for="phone">Seu telefone</label>
+              <input id="phone" type="tel" name="phone" placeholder="Seu telefone" required>
+            </div>
+          </div>
 
-          <label for="phone">Seu telefone</label>
-          <input id="phone" type="tel" name="phone" placeholder="Seu telefone" required>
+          <div class="form-row">
+            <div>
+              <label for="segment">Segmento da empresa</label>
+              <select id="segment" name="company_segment" required>
+                <option value="">Selecione</option>
+                <option value="varejo-comercio">Varejo / Comércio</option>
+                <option value="saude">Saúde</option>
+                <option value="financeiro">Financeiro</option>
+                <option value="governo">Governo</option>
+                <option value="industria">Indústria</option>
+                <option value="agronegocio">Agronegócio</option>
+                <option value="educacao">Educação</option>
+                <option value="tecnologia">Tecnologia</option>
+                <option value="logistica">Logística</option>
+                <option value="outro">Outro</option>
+              </select>
+            </div>
+            <div>
+              <label for="users">Quantidade de usuários</label>
+              <select id="users" name="user_count" required>
+                <option value="">Selecione</option>
+                <option value="ate-9">Até 9 usuários</option>
+                <option value="10-99">10 a 99 usuários</option>
+                <option value="100-499">100 a 499 usuários</option>
+                <option value="500-999">500 a 999 usuários</option>
+                <option value="1000+">1000+ usuários</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div>
+              <label for="service">Serviço de interesse</label>
+              <select id="service" name="service_interest" required>
+                <option value="">Selecione</option>
+                <option value="seguranca">Segurança da Informação</option>
+                <option value="firewall">Firewall e proteção de rede</option>
+                <option value="infraestrutura">Infraestrutura de redes</option>
+                <option value="cloud">Cloud</option>
+                <option value="backup">Backup e continuidade</option>
+                <option value="consultoria">Consultoria e melhoria contínua</option>
+              </select>
+            </div>
+            <div>
+              <label for="department">Setor para atendimento</label>
+              <select id="department" name="department" required>
+                <option value="">Selecione</option>
+                <option value="comercial">Comercial</option>
+                <option value="financeiro">Financeiro</option>
+                <option value="suporte">Suporte</option>
+                <option value="ti">TI / Infraestrutura</option>
+                <option value="seguranca">Segurança da Informação</option>
+                <option value="diretoria">Diretoria</option>
+                <option value="compras">Compras</option>
+                <option value="outro">Outro</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label for="urgency">Urgência</label>
+            <select id="urgency" name="priority">
+              <option value="normal">Quero conversar sem urgência</option>
+              <option value="media">Tenho uma demanda em andamento</option>
+              <option value="alta">Preciso de retorno prioritário</option>
+            </select>
+          </div>
 
           <label for="message">Descreva sua necessidade</label>
-          <textarea id="message" name="message" placeholder="Descreva sua necessidade" rows="6" required></textarea>
+          <textarea id="message" name="message" placeholder="Conte um pouco sobre o cenário, dores e objetivos do seu projeto" rows="6" required></textarea>
+
+          <div class="consent-box">
+            <label class="checkbox-field" for="privacy-consent">
+              <input id="privacy-consent" type="checkbox" name="privacy_consent" value="Aceito a Política de Privacidade e Proteção de Dados" required>
+              <span>Ao continuar a utilizar este website, o usuário reconhece, compreende e concorda com os termos desta <a href="privacidade.html" target="_blank" rel="noopener">Política de Privacidade e Proteção de Dados</a>.</span>
+            </label>
+          </div>
 
           <button type="submit">Enviar mensagem</button>
         </form>
         <p id="form-status" class="form-feedback" role="status" aria-live="polite"></p>
-        <p>Ao enviar pela primeira vez, o FormSubmit pode solicitar a confirmação do e-mail de destino antes de começar a encaminhar as mensagens.</p>
+        <p>Ao enviar pela primeira vez ou após trocar o domínio do site, o FormSubmit pode solicitar a confirmação do e-mail de destino antes de começar a encaminhar as mensagens.</p>
       </div>
 
       <div class="contact-grid">
         <div class="contact-card">
           <strong>WhatsApp</strong>
-          <p><a href="https://wa.me/5517991362933" target="_blank">+55 (17) 99136-2933</a></p>
+          <p><a href="https://wa.me/5517991362933" target="_blank" rel="noopener">+55 (17) 99136-2933</a></p>
         </div>
         <div class="contact-card">
           <strong>E-mail</strong>
           <p><a href="mailto:gdzconsultoria@outlook.com">gdzconsultoria@outlook.com</a></p>
         </div>
         <div class="contact-card">
-          <strong>Mensagem rápida</strong>
-          <p>Estamos à disposição para entender seu cenário e apresentar as melhores soluções de TI e segurança.</p>
+          <strong>Retorno consultivo</strong>
+          <p>Compartilhe a sua necessidade e a equipe responde com direcionamento inicial, próximos passos e possibilidades de projeto.</p>
         </div>
+        <div class="contact-card">
+          <strong>Atendimento online</strong>
+          <p>Use o botão flutuante para iniciar uma conversa rápida e agilizar seu primeiro contato.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="redes">
+      <h2>Redes sociais e canais visíveis</h2>
+      <p class="lead">Além do formulário, você também pode falar com a GDZ pelos canais abaixo e acompanhar nossa presença institucional.</p>
+      <div class="social-links">
+        <a class="social-link" href="https://wa.me/5517991362933" target="_blank" rel="noopener">💬 WhatsApp</a>
+        <a class="social-link" href="mailto:gdzconsultoria@outlook.com">✉️ E-mail</a>
+        <a class="social-link" href="https://www.linkedin.com/company/gdz-consultoria/" target="_blank" rel="noopener">🔗 LinkedIn</a>
+        <a class="social-link" href="https://www.instagram.com/gdzconsultoria/" target="_blank" rel="noopener">📸 Instagram</a>
+      </div>
+      <p>Se algum perfil institucional ainda estiver em implantação, basta atualizar os links acima com os endereços oficiais finais da empresa.</p>
+    </section>
+
+    <section id="privacidade">
+      <h2>Privacidade, cookies e canal LGPD</h2>
+      <p class="lead">Mantemos uma comunicação clara sobre o uso das informações enviadas pelo site, cookies essenciais e canais para solicitações relacionadas à privacidade.</p>
+      <div class="process-grid">
+        <article class="process-step">
+          <span class="kicker">Privacidade</span>
+          <p>Coletamos apenas as informações necessárias para retorno comercial e relacionamento com o visitante.</p>
+        </article>
+        <article class="process-step">
+          <span class="kicker">Cookies</span>
+          <p>O banner de cookies ajuda a comunicar consentimento e reforça maturidade institucional do site.</p>
+        </article>
+        <article class="process-step">
+          <span class="kicker">Canal LGPD</span>
+          <p>Solicitações sobre dados pessoais podem ser direcionadas para <strong>gdzconsultoria@outlook.com</strong>.</p>
+        </article>
       </div>
     </section>
   </main>
@@ -85,13 +212,8 @@
     <p>© <span id="year"></span> GDZ Consultoria. Todos os direitos reservados.</p>
   </footer>
 
-  <a href="https://wa.me/5517991362933" target="_blank" class="whatsapp" aria-label="WhatsApp">💬</a>
-  <script src="js/script.min.js?v=20260407-2"></script>
+  <a href="https://wa.me/5517991362933" target="_blank" rel="noopener" class="whatsapp" aria-label="WhatsApp">💬</a>
+  <script src="js/script.min.js?v=20260409-5"></script>
 </body>
 </html>
-
-
-
-
-
 

@@ -23,11 +23,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SEU_USUARIO/gdz-consultoria.git"
+    "url": "https://github.com/ZUKIhy/GDZConsultoria.git"
   },
-  "homepage": "https://zukihy.github.io/GDZConsultoria-em-seguranca-e-infra/",
+  "homepage": "https://gdzconsultoria.com/",
   "bugs": {
-    "url": "https://github.com/ZUKIhy/GDZConsultoria-em-seguranca-e-infra/issues"
+    "url": "https://github.com/ZUKIhy/GDZConsultoria/issues"
   },
   "engines": {
     "node": ">=14.0.0"

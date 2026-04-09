@@ -4,8 +4,8 @@
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/SEU_USUARIO/gdz-consultoria.git
-   cd gdz-consultoria
+   git clone https://github.com/ZUKIhy/GDZConsultoria.git
+   cd GDZConsultoria
    ```
 
 2. Abra `index.html` no navegador ou use um servidor local:

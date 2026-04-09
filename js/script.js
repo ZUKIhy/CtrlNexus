@@ -71,15 +71,33 @@ if (form) {
         }
       });
 
+      const responseText = await response.text();
+      let result = null;
+
+      try {
+        result = responseText ? JSON.parse(responseText) : null;
+      } catch {
+        // ignora respostas não JSON
+      }
+
       if (!response.ok) {
-        throw new Error(`Falha no envio: ${response.status}`);
+        throw new Error(result?.message || `Falha no envio: ${response.status}`);
+      }
+
+      if (String(result?.success ?? "").toLowerCase() === "false") {
+        throw new Error(result?.message || "O serviço de envio recusou a mensagem.");
       }
 
       form.reset();
       setFormStatus("Mensagem enviada com sucesso! Em breve entraremos em contato.", "success");
-    } catch {
+    } catch (error) {
+      const errorMessage = error instanceof Error ? error.message : "";
+      const requiresActivation = /activat(e|ion)|needs activation/i.test(errorMessage);
+
       setFormStatus(
-        "Não foi possível enviar agora. Tente novamente em instantes ou use o WhatsApp ao lado.",
+        requiresActivation
+          ? "O formulário precisa ser reativado no FormSubmit. Verifique o e-mail gdzconsultoria@outlook.com e clique em \"Activate Form\"."
+          : "Não foi possível enviar agora. Tente novamente em instantes ou use o WhatsApp ao lado.",
         "error"
       );
     } finally {

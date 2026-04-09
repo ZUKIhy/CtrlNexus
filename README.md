@@ -6,8 +6,8 @@ Site institucional da GDZ Consultoria, especializada em soluções de segurança
 
 ```bash
 # Clone o repositório
-git clone https://github.com/SEU_USUARIO/gdz-consultoria.git
-cd gdz-consultoria
+git clone https://github.com/ZUKIhy/GDZConsultoria.git
+cd GDZConsultoria
 
 # Abra no navegador
 python -m http.server 8000
@@ -61,7 +61,7 @@ MIT License - veja [LICENSE](LICENSE) para detalhes.
 
 ## 📞 Contato
 
-- **Site**: [GitHub Pages](https://zukihy.github.io/GDZConsultoria-em-seguranca-e-infra/)
+- **Site**: [gdzconsultoria.com](https://gdzconsultoria.com/)
 - **Email**: gdzconultoria@outlook.com
 - **WhatsApp**: [+55 17 99136-2933](https://wa.me/5517991362933)
 

@@ -1,11 +1,11 @@
 {
-  "name": "GDZ Consultoria - Soluções em TI",
+  "name": "GDZ Consultoria - Segurança, Cloud e Infraestrutura",
   "short_name": "GDZ",
-  "description": "Especialistas em segurança, infraestrutura e cloud para empresas. Soluções completas em TI para ambientes críticos.",
+  "description": "Especialistas em segurança, infraestrutura, cloud e continuidade para empresas que precisam de alta disponibilidade e governança.",
   "start_url": "/index.html",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#f97316",
+  "background_color": "#020617",
+  "theme_color": "#0f172a",
   "orientation": "portrait-primary",
   "scope": "/",
   "lang": "pt-BR",
@@ -28,7 +28,7 @@
     {
       "name": "Contato",
       "short_name": "Contato",
-      "description": "Entre em contato conosco",
+      "description": "Entre em contato com a GDZ Consultoria",
       "url": "/contato.html",
       "icons": [{ "src": "img/favicon.ico", "sizes": "16x16" }]
     },
@@ -37,6 +37,13 @@
       "short_name": "Equipe",
       "description": "Conheça nossa equipe",
       "url": "/equipe.html",
+      "icons": [{ "src": "img/favicon.ico", "sizes": "16x16" }]
+    },
+    {
+      "name": "Blog",
+      "short_name": "Blog",
+      "description": "Artigos e tendências da GDZ Consultoria",
+      "url": "/blog.html",
       "icons": [{ "src": "img/favicon.ico", "sizes": "16x16" }]
     }
   ]
