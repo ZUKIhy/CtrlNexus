@@ -431,6 +431,27 @@ h3::before {
   background-size: 112%;
 }
 
+.partner-profile-card {
+  min-height: 320px;
+  background-position: center 30%;
+  box-shadow: 0 22px 52px rgba(15, 23, 42, 0.18);
+}
+
+.partner-profile-card::after {
+  background:
+    linear-gradient(135deg, rgba(249, 115, 22, 0.18), transparent 30%),
+    linear-gradient(180deg, transparent 48%, rgba(15, 23, 42, 0.26));
+  opacity: 0.82;
+}
+
+.partner-profile-card h3 {
+  font-size: clamp(1.25rem, 1.8vw, 1.55rem);
+}
+
+.partner-profile-card p {
+  max-width: 34ch;
+}
+
 .feature--image::after {
   content: "";
   position: absolute;
