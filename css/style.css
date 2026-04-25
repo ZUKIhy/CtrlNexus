@@ -29,6 +29,7 @@ html {
 body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
   background:
     radial-gradient(circle at top right, rgba(249, 115, 22, 0.12), transparent 28%),
     radial-gradient(circle at top left, rgba(37, 99, 235, 0.12), transparent 24%),
@@ -152,7 +153,7 @@ img {
   z-index: 2;
   width: clamp(180px, 18vw, 300px);
   height: clamp(58px, 6.5vw, 96px);
-  background: url("../img/logovaziocima-small.png") left center / contain no-repeat;
+  background: url("../img/logovaziocima-crop.png") left center / contain no-repeat;
   filter: drop-shadow(0 14px 24px rgba(0, 0, 0, 0.48));
   opacity: 0.96;
 }
@@ -1695,7 +1696,8 @@ footer {
     display: none;
     flex-direction: column;
     align-items: stretch;
-    padding-top: 64px;
+    padding: 74px 14px 14px;
+    gap: 6px;
   }
 
   nav.open {
@@ -1707,12 +1709,19 @@ footer {
     flex-direction: column;
     align-items: stretch;
     position: fixed;
-    inset: auto 24px 80px;
-    padding: 18px;
-    border-radius: 26px;
-    background: rgba(7, 20, 36, 0.96);
-    box-shadow: 0 28px 60px rgba(0, 0, 0, 0.28);
-    z-index: 30;
+    top: 70px;
+    right: 12px;
+    bottom: auto;
+    left: 12px;
+    max-height: calc(100dvh - 88px);
+    padding: 12px;
+    overflow-y: auto;
+    border-radius: 18px;
+    background: rgba(7, 20, 36, 0.98);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    box-shadow: 0 22px 52px rgba(0, 0, 0, 0.38);
+    z-index: 44;
+    backdrop-filter: blur(14px);
   }
   
   .home-page nav.open {
@@ -1721,6 +1730,7 @@ footer {
 
   nav a {
     border-radius: 16px;
+    padding: 13px 16px;
   }
 
   .nav-toggle {
@@ -1799,21 +1809,47 @@ footer {
   }
 
   .page-header--home .carousel-slide {
-    padding: 128px 22px 90px;
+    padding: 108px 20px 74px;
   }
 
   .home-hero-logo {
-    min-height: 104px;
-    padding: 12px 18px;
+    position: fixed;
+    min-height: 66px;
+    padding: 8px 118px 8px 12px;
+    background: linear-gradient(180deg, rgba(5, 12, 28, 0.96) 0%, rgba(5, 12, 28, 0.74) 100%);
+    backdrop-filter: blur(14px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    pointer-events: auto;
   }
 
   .home-brand-logo {
-    width: min(430px, 88vw);
-    max-height: 118px;
+    width: min(190px, 50vw);
+    max-height: 52px;
   }
 
   .page-header--home .carousel-slide h2 {
-    max-width: 100%;
+    width: min(310px, calc(100vw - 44px));
+    max-width: min(310px, calc(100vw - 44px));
+    font-size: clamp(1.75rem, 7.4vw, 2.25rem);
+    line-height: 1.02;
+    overflow-wrap: break-word;
+  }
+
+  .page-header--home .carousel-slide p {
+    max-width: 92%;
+    font-size: 0.92rem;
+    line-height: 1.55;
+  }
+
+  .page-header--home .carousel-slide .btn {
+    margin-top: 14px !important;
+    padding: 12px 18px;
+    font-size: 0.92rem;
+  }
+
+  .page-header--home .carousel-tag {
+    font-size: 0.72rem;
+    padding: 6px 10px;
   }
 
   .hero-metrics {
@@ -1846,18 +1882,44 @@ footer {
 
   .home-menu-button {
     display: inline-flex;
+    position: fixed;
+    top: 12px;
+    right: auto;
+    left: clamp(170px, 72vw, 334px);
+    z-index: 46;
     align-items: center;
     justify-content: center;
-    width: 52px;
-    height: 52px;
-    border: 0;
+    width: 44px;
+    height: 44px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
     padding: 0;
-    border-radius: 14px;
-    background: #ff9d00;
+    border-radius: 13px;
+    background: rgba(249, 115, 22, 0.96);
     color: #ffffff;
     cursor: pointer;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 12px 26px rgba(0, 0, 0, 0.26);
     flex-shrink: 0;
+  }
+
+  .home-menu-bars,
+  .home-menu-bars::before,
+  .home-menu-bars::after {
+    width: 20px;
+    height: 3px;
+  }
+
+  .home-menu-bars::before {
+    top: -7px;
+  }
+
+  .home-menu-bars::after {
+    top: 7px;
+  }
+
+  .home-hero-bottom {
+    position: static;
+    padding: 0;
+    background: none;
   }
 
   .home-hero-bottom .main-nav {
@@ -2279,11 +2341,38 @@ footer {
 @media (max-width: 920px) {
   .theme-toggle {
     top: 12px;
-    right: 76px; /* leave space for nav-toggle at right: 14px */
+    right: 68px;
+    z-index: 45;
+    width: 44px;
+    height: 44px;
+  }
+
+  .home-page .theme-toggle {
+    right: auto;
+    left: clamp(124px, 58vw, 282px);
+    background: rgba(7, 20, 36, 0.92);
+    border-color: rgba(255, 255, 255, 0.16);
+    color: #ffffff;
   }
 }
 
 /* On home page, stay above the hero logo overlay (z-index: 20) */
 .home-page .theme-toggle {
   z-index: 25;
+}
+
+@media (max-width: 360px) {
+  .home-brand-logo {
+    width: min(128px, 50vw);
+  }
+
+  .home-page .theme-toggle {
+    left: auto;
+    right: 62px;
+  }
+
+  .home-menu-button {
+    left: auto;
+    right: 12px;
+  }
 }
