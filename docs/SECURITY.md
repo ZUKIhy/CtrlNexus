@@ -29,7 +29,7 @@
 ## Relatórios de Segurança
 
 Para reportar vulnerabilidades:
-- Email: contato@gdzconsultoria.com.br
+- Email: gdzconsultoria@outlook.com
 - Use `security.txt` para contato oficial
 
 ## Checklist de Segurança

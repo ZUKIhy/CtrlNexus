@@ -1,7 +1,7 @@
 {
-  "name": "gdz-consultoria",
+  "name": "ctrlnexus",
   "version": "1.0.0",
-  "description": "Site institucional da GDZ Consultoria",
+  "description": "Site institucional da ctrlNexus",
   "main": "index.html",
   "scripts": {
     "start": "python -m http.server 8000",
@@ -19,15 +19,15 @@
     "website",
     "static-site"
   ],
-  "author": "GDZ Consultoria",
+  "author": "ctrlNexus",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ZUKIhy/GDZConsultoria.git"
+    "url": "https://github.com/ZUKIhy/CtrlNexus.git"
   },
-  "homepage": "https://gdzconsultoria.com/",
+  "homepage": "https://ctrlnexus.com.br/",
   "bugs": {
-    "url": "https://github.com/ZUKIhy/GDZConsultoria/issues"
+    "url": "https://github.com/ZUKIhy/CtrlNexus/issues"
   },
   "engines": {
     "node": ">=14.0.0"

@@ -4,8 +4,8 @@
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/ZUKIhy/GDZConsultoria.git
-   cd GDZConsultoria
+   git clone https://github.com/ZUKIhy/ctrlNexus.git
+   cd ctrlNexus
    ```
 
 2. Abra `index.html` no navegador ou use um servidor local:
@@ -38,4 +38,4 @@ Veja `docs/DEPLOY.md` para opções de hospedagem.
 
 - Documentação: `docs/`
 - Issues: GitHub Issues
-- Email: contato@gdzconsultoria.com.br
+- Email: gdzconsultoria@outlook.com

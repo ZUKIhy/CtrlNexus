@@ -1,13 +1,10 @@
 /* TEAM */
-Developer: GDZ Consultoria Team
-Contact: contato@gdzconsultoria.com.br
+Developer: ctrlNexus
+Contact: gdzconsultoria@outlook.com
 Location: Brasil
 
-/* THANKS */
-Contributors: See docs/CONTRIBUTORS.md
-
 /* SITE */
-Last update: 2026/04/07
+Last update: 2026/04/25
 Language: Portuguese (Brazil)
 Standards: HTML5, CSS3, WCAG 2.1 AA
 Components: None

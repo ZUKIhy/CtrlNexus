@@ -1,22 +1,4 @@
 User-agent: *
 Allow: /
 
-# Páginas importantes
-Allow: /index.html
-Allow: /blog.html
-Allow: /equipe.html
-Allow: /servicos.html
-Allow: /contato.html
-Allow: /privacidade.html
-Allow: /parcerias.html
-
-# Arquivos de SEO
-Allow: /sitemap.xml
-Allow: /robots.txt
-
-# Bloquear arquivos temporários
-Disallow: /temp/
-Disallow: /*.tmp
-Disallow: /*.bak
-
-Sitemap: https://gdzconsultoria.com/sitemap.xml
+Sitemap: https://ctrlnexus.com.br/sitemap.xml

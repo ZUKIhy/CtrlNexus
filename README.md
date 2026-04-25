@@ -1,70 +1,39 @@
-# GDZ Consultoria
+# ctrlNexus
 
-Site institucional da GDZ Consultoria, especializada em soluções de segurança, infraestrutura e cloud para empresas.
+Site institucional da ctrlNexus, focado em infraestrutura, segurança, cloud, backup, monitoramento e sustentação de ambientes de TI.
 
-## 🚀 Quick Start
+## Como rodar localmente
 
 ```bash
-# Clone o repositório
-git clone https://github.com/ZUKIhy/GDZConsultoria.git
-cd GDZConsultoria
-
-# Abra no navegador
 python -m http.server 8000
-# Acesse: http://localhost:8000
 ```
 
-## 📋 Características
+Acesse `http://localhost:8000` no navegador.
 
-- ✅ **Responsivo**: Funciona em desktop, tablet e mobile
-- ✅ **Acessível**: Conformidade WCAG 2.1 AA
-- ✅ **Otimizado**: CSS/JS minificados, imagens comprimidas
-- ✅ **SEO**: Meta tags, sitemap, robots.txt
-- ✅ **PWA**: Manifest.json para instalação
-- ✅ **Seguro**: Security.txt e HTTPS
-- ✅ **Rápido**: Carregamento otimizado
+## Estrutura principal
 
-## 📁 Estrutura
+- `index.html`: tela inicial
+- `sobre.html`: apresentação institucional
+- `servicos.html`: soluções da ctrlNexus
+- `servico-*.html`: páginas individuais de cada solução
+- `equipe.html`: equipe técnica
+- `contato.html`: formulário, WhatsApp e canais de atendimento
+- `css/style.css`: estilos principais
+- `js/script.js`: interações, tema, menu e carrossel
+- `img/`: imagens e logos do site
 
-```
-gdz-consultoria/
-├── index.html              # Página inicial
-├── equipe.html             # Página da equipe
-├── servicos.html           # Página de serviços
-├── contato.html            # Página de contato
-├── css/style.min.css       # CSS minificado
-├── js/script.min.js        # JS minificado
-├── img/                    # Imagens otimizadas
-├── docs/                   # Documentação completa
-└── README.md               # Este arquivo
-```
+## Identidade e SEO
 
-## 🛠️ Tecnologias
+O projeto usa `manifest.json`, `sitemap.xml`, `robots.txt`, imagens otimizadas e metadados Open Graph para manter consistência de marca e melhorar indexação.
 
-- **HTML5** - Semântico e acessível
-- **CSS3** - Grid, Flexbox, animações
-- **JavaScript** - Interatividade vanilla
-- **Git** - Versionamento
-- **GitHub Pages** - Hospedagem gratuita
+## FormSubmit
 
-## 📚 Documentação
+O formulário principal usa FormSubmit e define a URL de retorno automaticamente no navegador. Assim ele funciona tanto no domínio final quanto no GitHub Pages.
 
-Para documentação completa, veja [docs/README.md](docs/README.md).
+Na primeira submissão após publicar o site, o FormSubmit pode enviar um e-mail de ativação para o endereço configurado. É preciso confirmar esse e-mail uma vez para liberar os envios.
 
-## 🤝 Contribuição
+## Contato
 
-Veja [CONTRIBUTING.md](CONTRIBUTING.md) para contribuir.
-
-## 📄 Licença
-
-MIT License - veja [LICENSE](LICENSE) para detalhes.
-
-## 📞 Contato
-
-- **Site**: [gdzconsultoria.com](https://gdzconsultoria.com/)
-- **Email**: gdzconultoria@outlook.com
-- **WhatsApp**: [+55 17 99136-2933](https://wa.me/5517991362933)
-
----
-
-⭐ **Star** este repositório se gostou do projeto!
+- Site: https://ctrlnexus.com.br/
+- Email: gdzconsultoria@outlook.com
+- WhatsApp: +55 (17) 99136-2933

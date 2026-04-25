@@ -2,7 +2,7 @@
 
 ## Mantenedores
 
-- **GDZ Consultoria** - Desenvolvimento inicial
+- **ctrlNexus** - Desenvolvimento inicial
 
 ## Como se tornar contribuidor
 

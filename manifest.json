@@ -1,7 +1,7 @@
 {
-  "name": "GDZ Consultoria - Segurança, Cloud e Infraestrutura",
-  "short_name": "GDZ",
-  "description": "Especialistas em segurança, infraestrutura, cloud e continuidade para empresas que precisam de alta disponibilidade e governança.",
+  "name": "ctrlNexus | Infraestrutura, segurança e sustentação de TI",
+  "short_name": "ctrlNexus",
+  "description": "Apoio especializado em infraestrutura, segurança, cloud, backup e continuidade operacional para empresas.",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#020617",
@@ -9,16 +9,14 @@
   "orientation": "portrait-primary",
   "scope": "/",
   "lang": "pt-BR",
-  "categories": ["business", "productivity", "utilities"],
+  "categories": [
+    "business",
+    "productivity",
+    "utilities"
+  ],
   "icons": [
     {
-      "src": "img/favicon.ico",
-      "sizes": "16x16 32x32 48x48",
-      "type": "image/x-icon",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "img/logo.png",
+      "src": "img/logocrtlNexusicone-small.png",
       "sizes": "192x192 512x512",
       "type": "image/png",
       "purpose": "any maskable"
@@ -28,23 +26,26 @@
     {
       "name": "Contato",
       "short_name": "Contato",
-      "description": "Entre em contato com a GDZ Consultoria",
+      "description": "Solicite um diagnóstico da ctrlNexus",
       "url": "/contato.html",
-      "icons": [{ "src": "img/favicon.ico", "sizes": "16x16" }]
+      "icons": [
+        {
+          "src": "img/logocrtlNexusicone-small.png",
+          "sizes": "192x192"
+        }
+      ]
     },
     {
-      "name": "Equipe",
-      "short_name": "Equipe",
-      "description": "Conheça nossa equipe",
-      "url": "/equipe.html",
-      "icons": [{ "src": "img/favicon.ico", "sizes": "16x16" }]
-    },
-    {
-      "name": "Blog",
-      "short_name": "Blog",
-      "description": "Artigos e tendências da GDZ Consultoria",
-      "url": "/blog.html",
-      "icons": [{ "src": "img/favicon.ico", "sizes": "16x16" }]
+      "name": "Soluções",
+      "short_name": "Soluções",
+      "description": "Conheça as soluções da ctrlNexus",
+      "url": "/servicos.html",
+      "icons": [
+        {
+          "src": "img/logocrtlNexusicone-small.png",
+          "sizes": "192x192"
+        }
+      ]
     }
   ]
 }

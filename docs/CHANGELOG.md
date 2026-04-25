@@ -22,7 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0] - 2026-04-07
 
 ### Added
-- Site institucional completo da GDZ Consultoria
+- Site institucional completo da ctrlNexus
 - Páginas: Home, Equipe, Serviços, Contato
 - Design responsivo e acessível
 - Favicon em .ico

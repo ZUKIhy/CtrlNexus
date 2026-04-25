@@ -32,7 +32,7 @@ Este Código de Conduta aplica-se tanto nos espaços do projeto quanto nos espa�
 
 ## Aplicação
 
-Instâncias de comportamento abusivo, assédio ou inaceitável podem ser reportadas entrando em contato com a equipe do projeto em contato@gdzconsultoria.com.br. Todas as reclamações serão analisadas e investigadas e resultarão em uma resposta que seja considerada necessária e apropriada às circunstâncias. A equipe do projeto é obrigada a manter a confidencialidade em relação ao relator de um incidente.
+Instâncias de comportamento abusivo, assédio ou inaceitável podem ser reportadas entrando em contato com a equipe do projeto em gdzconsultoria@outlook.com. Todas as reclamações serão analisadas e investigadas e resultarão em uma resposta que seja considerada necessária e apropriada às circunstâncias. A equipe do projeto é obrigada a manter a confidencialidade em relação ao relator de um incidente.
 
 ## Atribuição
 

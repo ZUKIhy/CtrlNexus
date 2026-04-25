@@ -1,53 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+  <script>!function(){var k='ctrlnexus-theme',t='dark',m=document.cookie.match(new RegExp('(?:^|; )'+k+'=([^;]*)'));try{var u=new URLSearchParams(location.search).get('theme');if(u==='dark'||u==='light')t=u;else{var s=localStorage.getItem(k)||sessionStorage.getItem(k)||(m?decodeURIComponent(m[1]):'');if(s==='dark'||s==='light')t=s}}catch(e){var c=m?decodeURIComponent(m[1]):'';if(c==='dark'||c==='light')t=c}document.documentElement.setAttribute('data-theme',t);document.documentElement.classList.add(t==='dark'?'theme-dark':'theme-light')}();</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Entre em contato com a GDZ Consultoria para solicitar um diagnóstico, iniciar um projeto de segurança, cloud ou infraestrutura e captar leads com rapidez.">
+  <meta name="description" content="Entre em contato com a ctrlNexus para solicitar atendimento, diagnóstico e apoio especializado em infraestrutura, segurança e sustentação de TI.">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Contato | GDZ Consultoria">
-  <meta property="og:description" content="Formulário inteligente, atendimento online e canais rápidos para falar com a GDZ Consultoria.">
-  <meta property="og:image" content="img/logo.png">
-  <link rel="canonical" href="https://gdzconsultoria.com/contato.html">
-  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-  <title>Contato | GDZ Consultoria</title>
-  <link rel="stylesheet" href="css/style.min.css?v=20260409-6">
+  <meta property="og:title" content="Contato | ctrlNexus">
+  <meta property="og:description" content="Formulário, WhatsApp e canais diretos para falar com a ctrlNexus.">
+  <title>Contato | ctrlNexus</title>
+  <link rel="icon" type="image/png" href="img/logocrtlNexusicone.png">
+  <link rel="preload" as="image" href="img/logovaziocima-small.png">
+  <link rel="preload" as="image" href="img/monitoramento-de-rede-otimizado.jpg">
+  <link rel="preload" as="image" href="img/infraestrutura-redes-otimizado.jpg">
+  <link rel="stylesheet" href="css/style.css?v=20260424-29">
 </head>
 <body>
-  <header class="page-header">
-    <div class="brand">
-      <div>
-        <h1>Contato e atendimento online</h1>
+  <header class="page-header page-header--contact">
+    <div class="page-header__inner">
+      <div class="hero-panel page-header__panel">
+        <p class="eyebrow">CONTATO / DIAGNÓSTICO / ATENDIMENTO</p>
+        <h1>Fale com a ctrlNexus</h1>
+      </div>
+      <p class="hero-copy page-header__copy">Mantivemos a página de contato com a mesma estrutura funcional do site atual, pronta para receber oportunidades, dúvidas e solicitações de atendimento.</p>
+      <div class="page-header__brand">
+        <img src="img/logovaziocima-small.png" alt="ctrlNexus" class="page-header__brand-logo">
       </div>
     </div>
-    <p>Entre em contato para agendar um diagnóstico, conhecer nossos serviços ou iniciar seu projeto de segurança, cloud e infraestrutura.</p>
   </header>
 
   <nav>
-    <a href="index.html">Home</a>
-    <a href="apresentacao.html">Apresentação</a>
-    <a href="sobre.html">Sobre</a>
-    <a href="escopo.html">Escopo</a>
-    <a href="servicos.html">Serviços</a>
+    <a href="index.html">Início</a>
+    <a href="sobre.html">Quem Somos</a>
+    <a href="servicos.html">Soluções</a>
     <a href="equipe.html">Equipe</a>
-    <a href="diferenciais.html">Diferenciais</a>
-    <a href="beneficios.html">Benefícios</a>
-    <a href="consideracoes.html">Considerações</a>
-    <a href="blog.html">Blog</a>
-    <a href="parcerias.html">Parcerias</a>
     <a href="contato.html" class="active">Contato</a>
   </nav>
 
   <main>
     <section class="page-grid">
-      <div>
-        <h2>Fale com a GDZ</h2>
+      <div class="contact-main">
+        <h2>Fale com a ctrlNexus</h2>
         <p class="lead">Preencha o formulário abaixo e nossa equipe retornará com um direcionamento inicial sobre segurança, cloud, infraestrutura ou continuidade.</p>
+
         <form id="contact-form" action="https://formsubmit.co/gdzconsultoria@outlook.com" method="POST">
-          <input type="hidden" name="_subject" value="Novo contato pelo site - GDZ Consultoria">
+          <input type="hidden" name="_subject" value="Novo contato pelo site - ctrlNexus">
           <input type="hidden" name="_template" value="table">
           <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" id="form-next-url" name="_next" value="https://gdzconsultoria.com/contato.html?enviado=1">
+          <input type="hidden" id="form-next-url" name="_next" value="https://ctrlnexus.com/contato.html?enviado=1">
           <input type="text" name="_honey" style="display:none">
 
           <div class="form-row">
@@ -107,9 +107,9 @@
               <label for="service">Serviço de interesse</label>
               <select id="service" name="service_interest" required>
                 <option value="">Selecione</option>
-                <option value="seguranca">Segurança da Informação</option>
+                <option value="seguranca">Cibersegurança e proteção de dados</option>
                 <option value="firewall">Firewall e proteção de rede</option>
-                <option value="infraestrutura">Infraestrutura de redes</option>
+                <option value="infraestrutura">Infraestrutura e sustentação de redes</option>
                 <option value="cloud">Cloud</option>
                 <option value="backup">Backup e continuidade</option>
                 <option value="consultoria">Consultoria e melhoria contínua</option>
@@ -141,56 +141,57 @@
           </div>
 
           <label for="message">Descreva sua necessidade</label>
-          <textarea id="message" name="message" placeholder="Conte um pouco sobre o cenário, dores e objetivos do seu projeto" rows="6" required></textarea>
+          <textarea id="message" name="message" placeholder="Conte um pouco sobre o cenario, dores e objetivos do seu projeto" rows="6" required></textarea>
 
           <div class="consent-box">
             <label class="checkbox-field" for="privacy-consent">
-              <input id="privacy-consent" type="checkbox" name="privacy_consent" value="Aceito a Política de Privacidade e Proteção de Dados" required>
-              <span>Ao continuar a utilizar este website, o usuário reconhece, compreende e concorda com os termos desta <a href="privacidade.html" target="_blank" rel="noopener">Política de Privacidade e Proteção de Dados</a>.</span>
+              <input id="privacy-consent" type="checkbox" name="privacy_consent" value="Aceito a Politica de Privacidade e Protecao de Dados" required>
+              <span>Ao continuar a utilizar este website, o usuário reconhece, compreende e concorda com os termos deste <a href="privacidade.html">Política de Privacidade e Proteção de Dados</a>.</span>
             </label>
           </div>
 
           <button type="submit">Enviar mensagem</button>
         </form>
+
         <p id="form-status" class="form-feedback" role="status" aria-live="polite"></p>
         <p>Ao enviar pela primeira vez ou após trocar o domínio do site, o FormSubmit pode solicitar a confirmação do e-mail de destino antes de começar a encaminhar as mensagens.</p>
       </div>
 
       <div class="contact-grid">
-        <div class="contact-card">
+        <article class="contact-card">
           <strong>WhatsApp</strong>
           <p><a href="https://wa.me/5517991362933" target="_blank" rel="noopener">+55 (17) 99136-2933</a></p>
-        </div>
-        <div class="contact-card">
+        </article>
+        <article class="contact-card">
           <strong>E-mail</strong>
           <p><a href="mailto:gdzconsultoria@outlook.com">gdzconsultoria@outlook.com</a></p>
-        </div>
-        <div class="contact-card">
+        </article>
+        <article class="contact-card">
           <strong>Retorno consultivo</strong>
           <p>Compartilhe a sua necessidade e a equipe responde com direcionamento inicial, próximos passos e possibilidades de projeto.</p>
-        </div>
-        <div class="contact-card">
+        </article>
+        <article class="contact-card">
           <strong>Atendimento online</strong>
           <p>Use o botão flutuante para iniciar uma conversa rápida e agilizar seu primeiro contato.</p>
-        </div>
+        </article>
       </div>
     </section>
 
-    <section id="redes">
+    <section>
       <h2>Redes sociais e canais visíveis</h2>
-      <p class="lead">Além do formulário, você também pode falar com a GDZ pelos canais abaixo e acompanhar nossa presença institucional.</p>
+      <p class="lead">Além do formulário, você também pode falar com a ctrlNexus pelos canais abaixo e acompanhar a presença institucional da marca.</p>
       <div class="social-links">
-        <a class="social-link" href="https://wa.me/5517991362933" target="_blank" rel="noopener">💬 WhatsApp</a>
-        <a class="social-link" href="mailto:gdzconsultoria@outlook.com">✉️ E-mail</a>
-        <a class="social-link" href="https://www.linkedin.com/company/gdz-consultoria/" target="_blank" rel="noopener">🔗 LinkedIn</a>
-        <a class="social-link" href="https://www.instagram.com/gdzconsultoria/" target="_blank" rel="noopener">📸 Instagram</a>
+        <a class="social-link" href="https://wa.me/5517991362933" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="social-link" href="mailto:gdzconsultoria@outlook.com">E-mail</a>
+        <a class="social-link" href="#" aria-disabled="true">LinkedIn</a>
+        <a class="social-link" href="#" aria-disabled="true">Instagram</a>
       </div>
       <p>Se algum perfil institucional ainda estiver em implantação, basta atualizar os links acima com os endereços oficiais finais da empresa.</p>
     </section>
 
-    <section id="privacidade">
+    <section>
       <h2>Privacidade, cookies e canal LGPD</h2>
-      <p class="lead">Mantemos uma comunicação clara sobre o uso das informações enviadas pelo site, cookies essenciais e canais para solicitações relacionadas à privacidade.</p>
+      <p class="lead">Mantivemos uma comunicação clara sobre o uso das informações enviadas pelo site, cookies essenciais e canais para solicitações relacionadas a privacidade.</p>
       <div class="process-grid">
         <article class="process-step">
           <span class="kicker">Privacidade</span>
@@ -198,7 +199,7 @@
         </article>
         <article class="process-step">
           <span class="kicker">Cookies</span>
-          <p>O banner de cookies ajuda a comunicar consentimento e reforça maturidade institucional do site.</p>
+          <p>O banner de cookies ajuda a comunicar consentimento e reforca maturidade institucional do site.</p>
         </article>
         <article class="process-step">
           <span class="kicker">Canal LGPD</span>
@@ -209,32 +210,38 @@
   </main>
 
   <footer>
-    <div class="footer-meta" aria-label="Informações do rodapé">
-      <div class="footer-column">
-        <strong>Contato</strong>
-        <a href="mailto:gdzconsultoria@outlook.com">gdzconsultoria@outlook.com</a>
-        <a href="https://wa.me/5517991362933" target="_blank" rel="noopener">+55 (17) 99136-2933</a>
+    <div class="footer-shell">
+      <div class="footer-meta" aria-label="Informações do rodapé">
+        <div class="footer-column">
+          <div class="footer-brand">
+            <img src="img/logoBranco-small.png" alt="Ícone da ctrlNexus">
+            <strong>ctrlNexus</strong>
+          </div>
+          <span>Apoio especializado para empresas que buscam mais segurança, estabilidade e evolução em TI.</span>
+        </div>
+        <div class="footer-column">
+          <strong>Navegação</strong>
+          <a href="index.html">Início</a>
+          <a href="sobre.html">Quem Somos</a>
+          <a href="servicos.html">Soluções</a>
+          <a href="equipe.html">Equipe</a>
+        </div>
+        <div class="footer-column">
+          <strong>Contato</strong>
+          <a href="mailto:gdzconsultoria@outlook.com">gdzconsultoria@outlook.com</a>
+          <a href="https://wa.me/5517991362933" target="_blank" rel="noopener">+55 (17) 99136-2933</a>
+        </div>
+        <div class="footer-column">
+          <strong>Atendimento</strong>
+          <span>Página preparada para manter o mesmo fluxo de captação de contatos do site atual.</span>
+          <a href="contato.html">Enviar mensagem</a>
+        </div>
       </div>
-      <div class="footer-column">
-        <strong>Atendimento</strong>
-        <span>Atendimento online para empresas em todo o Brasil.</span>
-        <a href="contato.html">Solicitar atendimento</a>
-      </div>
-      <div class="footer-column">
-        <strong>Privacidade</strong>
-        <span>Transparência no tratamento das informações.</span>
-        <a href="privacidade.html">Privacidade e cookies</a>
-      </div>
-      <div class="footer-column">
-        <strong>Localização</strong>
-        <span>Com sede em São José do Rio Preto, atendemos clientes em todo o Brasil, oferecendo soluções tecnológicas que entregam resultados com qualidade e inovação.</span>
-      </div>
+      <p class="footer-copy">&copy; <span id="year"></span> ctrlNexus. Todos os direitos reservados.</p>
     </div>
-    <p>© <span id="year"></span> GDZ Consultoria. Todos os direitos reservados.</p>
   </footer>
 
-  <a href="https://wa.me/5517991362933" target="_blank" rel="noopener" class="whatsapp" aria-label="WhatsApp">💬</a>
-  <script src="js/script.min.js?v=20260409-5"></script>
+  <a href="https://wa.me/5517991362933" target="_blank" rel="noopener" class="whatsapp" aria-label="WhatsApp"><span class="sr-only">WhatsApp</span></a>
+  <script src="js/script.js?v=20260424-14"></script>
 </body>
 </html>
-

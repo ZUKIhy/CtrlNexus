@@ -1,6 +1,6 @@
-# Documentação GDZ Consultoria
+# Documentação ctrlNexus
 
-Bem-vindo à documentação completa do site da GDZ Consultoria!
+Bem-vindo à documentação completa do site da ctrlNexus!
 
 ## Índice
 
@@ -25,7 +25,7 @@ Bem-vindo à documentação completa do site da GDZ Consultoria!
 ## Suporte
 
 - **GitHub Issues**: Para bugs e solicitações
-- **Email**: contato@gdzconsultoria.com.br
+- **Email**: gdzconsultoria@outlook.com
 - **WhatsApp**: Para contato rápido
 
 ## Licença

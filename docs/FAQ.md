@@ -2,7 +2,7 @@
 
 ## Geral
 
-**O que é a GDZ Consultoria?**
+**O que é a ctrlNexus?**
 Somos especialistas em soluções de segurança, infraestrutura e cloud para empresas.
 
 **Como entrar em contato?**

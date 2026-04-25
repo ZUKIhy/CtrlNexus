@@ -6,9 +6,9 @@ Este projeto está licenciado sob MIT License. Veja `LICENSE` para detalhes.
 
 ## Direitos Autorais
 
-- Conteúdo: GDZ Consultoria
-- Código: GDZ Consultoria
-- Imagens: GDZ Consultoria (exceto onde creditado)
+- Conteúdo: ctrlNexus
+- Código: ctrlNexus
+- Imagens: ctrlNexus (exceto onde creditado)
 
 ## Privacidade
 
@@ -35,7 +35,7 @@ O software é fornecido "como está", sem garantias.
 
 ## Contato Jurídico
 
-Para questões legais: contato@gdzconsultoria.com.br
+Para questões legais: gdzconsultoria@outlook.com
 
 ## Conformidade
 

@@ -1,209 +1,159 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+  <script>!function(){var k='ctrlnexus-theme',t='dark',m=document.cookie.match(new RegExp('(?:^|; )'+k+'=([^;]*)'));try{var u=new URLSearchParams(location.search).get('theme');if(u==='dark'||u==='light')t=u;else{var s=localStorage.getItem(k)||sessionStorage.getItem(k)||(m?decodeURIComponent(m[1]):'');if(s==='dark'||s==='light')t=s}}catch(e){var c=m?decodeURIComponent(m[1]):'';if(c==='dark'||c==='light')t=c}document.documentElement.setAttribute('data-theme',t);document.documentElement.classList.add(t==='dark'?'theme-dark':'theme-light')}();</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="GDZ Consultoria em segurança da informação, cloud e infraestrutura para empresas que precisam de alta disponibilidade, proteção e crescimento com governança.">
-  <meta name="keywords" content="segurança da informação, cloud, consultoria TI, infraestrutura de redes, backup, firewall, continuidade de negócios">
+  <meta name="description" content="ctrlNexus oferece sustentação de redes seguras, cibersegurança, proteção de dados e suporte especializado para a estrutura de TI da sua empresa.">
+  <meta name="keywords" content="ctrlNexus, suporte TI, sustentação de redes, cibersegurança, proteção de dados, infraestrutura de TI">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="pt_BR">
-  <meta property="og:title" content="GDZ Consultoria | Segurança, Cloud e Infraestrutura">
-  <meta property="og:description" content="Consultoria prática para fortalecer segurança, redes, cloud, backup e continuidade operacional da sua empresa.">
-  <meta property="og:image" content="img/logo.png">
-  <meta property="og:url" content="https://gdzconsultoria.com/index.html">
-  <link rel="canonical" href="https://gdzconsultoria.com/index.html">
-  <link rel="manifest" href="manifest.json">
-  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-  <title>GDZ Consultoria | Segurança da Informação, Cloud e Infraestrutura</title>
-  <link rel="stylesheet" href="css/style.min.css?v=20260420-1">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "GDZ Consultoria",
-    "url": "https://gdzconsultoria.com/",
-    "logo": "https://gdzconsultoria.com/img/logo.png",
-    "email": "mailto:gdzconsultoria@outlook.com",
-    "telephone": "+55-17-99136-2933",
-    "description": "Consultoria especializada em segurança da informação, infraestrutura de redes, cloud e continuidade de negócios.",
-    "areaServed": "Brasil",
-    "serviceType": [
-      "Segurança da Informação",
-      "Cloud",
-      "Infraestrutura de Redes",
-      "Backup e Continuidade"
-    ]
-  }
-  </script>
+  <meta property="og:title" content="ctrlNexus | Infraestrutura, segurança e sustentação de TI">
+  <meta property="og:description" content="Apoio especializado para empresas que precisam de performance, segurança e continuidade operacional em TI.">
+  <meta property="og:url" content="https://ctrlnexus.com/index.html">
+  <title>ctrlNexus | Infraestrutura, segurança e sustentação de TI</title>
+  <link rel="icon" type="image/png" href="img/logocrtlNexusicone.png">
+  <link rel="preload" as="image" href="img/logovaziocima-small.png">
+  <link rel="preload" as="image" href="img/monitoramento-de-rede-otimizado.jpg">
+  <link rel="preload" as="image" href="img/infraestrutura-redes-otimizado.jpg">
+  <link rel="stylesheet" href="css/style.css?v=20260424-29">
 </head>
-<body>
-  <header class="page-header page-header--premium">
-    <div class="brand">
-      <div>
-        <p class="eyebrow">Segurança • Infraestrutura • Cloud</p>
-        <h1>Segurança • Performance • Escalabilidade</h1>
+<body class="home-page">
+  <header class="page-header page-header--home">
+    <!-- Logo stays at the top -->
+    <div class="home-hero-logo">
+      <div class="home-brand-line" aria-label="Marca ctrlNexus">
+        <img src="img/logovaziocima-small.png" alt="ctrlNexus" class="home-brand-icon home-brand-logo">
       </div>
     </div>
-    <p>Apoiamos sua empresa na proteção dos dados, estabilidade da rede, continuidade da operação e evolução segura do ambiente de TI.</p>
-    <div class="hero-badges" aria-label="Destaques da GDZ">
-      <span class="hero-pill">Proteção e prevenção</span>
-      <span class="hero-pill">Cloud e continuidade</span>
-      <span class="hero-pill">Atendimento consultivo</span>
-      <span class="hero-pill">Ambientes críticos</span>
+
+    <!-- Fullscreen carousel (no inner wrapper) -->
+    <div class="hero-carousel hero-carousel--visual hero-carousel--showcase" aria-label="Destaques principais da ctrlNexus">
+      <article class="carousel-slide active" style="--slide-image: url('img/infraestrutura-redes-otimizado.jpg');">
+        <img src="img/infraestrutura-redes-otimizado.jpg" alt="Infraestrutura de redes" class="carousel-slide-image">
+        <span class="carousel-tag">Infraestrutura</span>
+        <h2>Infraestrutura de Redes</h2>
+        <p>Sustentação, performance e organização para o ambiente de TI operar com mais estabilidade e segurança.</p>
+        <a href="servicos.html#redes" class="btn btn-primary" style="margin-top: 24px;">Saiba mais</a>
+      </article>
+      <article class="carousel-slide" aria-hidden="true" style="--slide-image: url('img/seguranca-da-informacao-otimizado.jpg');">
+        <img src="img/seguranca-da-informacao-otimizado.jpg" alt="Proteção de dados e cibersegurança" class="carousel-slide-image">
+        <span class="carousel-tag">Segurança</span>
+        <h2>Proteção de Dados e Cibersegurança</h2>
+        <p>Controles, acessos e boas práticas para reduzir riscos e ampliar a confiança no seu ambiente.</p>
+        <a href="servicos.html#seguranca" class="btn btn-primary" style="margin-top: 24px;">Saiba mais</a>
+      </article>
+      <article class="carousel-slide" aria-hidden="true" style="--slide-image: url('img/monitoramento-de-rede-otimizado.jpg');">
+        <img src="img/monitoramento-de-rede-otimizado.jpg" alt="Monitoramento de rede" class="carousel-slide-image">
+        <span class="carousel-tag">Monitoramento</span>
+        <h2>Monitoramento de Rede</h2>
+        <p>Acompanhamento constante para antecipar falhas e reduzir impactos na operação da sua empresa.</p>
+        <a href="servicos.html#monitoramento" class="btn btn-primary" style="margin-top: 24px;">Saiba mais</a>
+      </article>
+      <article class="carousel-slide" aria-hidden="true" style="--slide-image: url('img/cloud-otimizado.jpg');">
+        <img src="img/cloud-otimizado.jpg" alt="Soluções em cloud" class="carousel-slide-image">
+        <span class="carousel-tag">Cloud</span>
+        <h2>Soluções em Cloud</h2>
+        <p>Apoio técnico para crescer com mais previsibilidade, segurança e escala na nuvem.</p>
+        <a href="servicos.html#cloud" class="btn btn-primary" style="margin-top: 24px;">Saiba mais</a>
+      </article>
+      <article class="carousel-slide" aria-hidden="true" style="--slide-image: url('img/firewall-rede-otimizado.jpg');">
+        <img src="img/firewall-rede-otimizado.jpg" alt="Firewall e proteção de rede" class="carousel-slide-image">
+        <span class="carousel-tag">Firewall</span>
+        <h2>Firewall e Proteção de Rede</h2>
+        <p>Proteção perimetral avançada para manter sua rede segura contra ameaças externas.</p>
+        <a href="servicos.html#firewall" class="btn btn-primary" style="margin-top: 24px;">Saiba mais</a>
+      </article>
+      <article class="carousel-slide" aria-hidden="true" style="--slide-image: url('img/backup-otimizado.jpg');">
+        <img src="img/backup-otimizado.jpg" alt="Backup e continuidade" class="carousel-slide-image">
+        <span class="carousel-tag">Backup</span>
+        <h2>Backup e Continuidade</h2>
+        <p>Rotinas de backup validadas e planos de continuidade para garantir a recuperação dos seus dados.</p>
+        <a href="servicos.html#backup" class="btn btn-primary" style="margin-top: 24px;">Saiba mais</a>
+      </article>
+      <button class="carousel-arrow carousel-arrow-prev" aria-label="Slide anterior">&#10094;</button>
+      <button class="carousel-arrow carousel-arrow-next" aria-label="Próximo slide">&#10095;</button>
+      <div class="carousel-dots" aria-label="Controles do carrossel">
+        <button class="carousel-dot active" type="button" aria-label="Slide 1" aria-pressed="true"></button>
+        <button class="carousel-dot" type="button" aria-label="Slide 2" aria-pressed="false"></button>
+        <button class="carousel-dot" type="button" aria-label="Slide 3" aria-pressed="false"></button>
+        <button class="carousel-dot" type="button" aria-label="Slide 4" aria-pressed="false"></button>
+        <button class="carousel-dot" type="button" aria-label="Slide 5" aria-pressed="false"></button>
+        <button class="carousel-dot" type="button" aria-label="Slide 6" aria-pressed="false"></button>
+      </div>
     </div>
-    <div class="hero-actions">
-      <a href="contato.html" class="primary">Solicitar diagnóstico</a>
-      <a href="servicos.html" class="secondary">Conhecer serviços</a>
-      <a href="diferenciais.html" class="secondary">Nossos diferenciais</a>
-    </div>
-    <div class="hero-metrics" aria-label="Números de destaque">
-      <article class="metric-card">
-        <strong><span class="counter" data-counter="15">0</span>+</strong>
-        <span>anos de experiência prática</span>
-      </article>
-      <article class="metric-card">
-        <strong><span class="counter" data-counter="98">0</span>%</strong>
-        <span>foco em satisfação e continuidade</span>
-      </article>
-      <article class="metric-card">
-        <strong><span class="counter" data-counter="24">0</span>x7</strong>
-        <span>visão de proteção e disponibilidade</span>
-      </article>
+
+    <!-- Bottom navigation menu -->
+    <div class="home-hero-bottom">
+      <nav class="main-nav" id="main-nav">
+        <a href="index.html" class="active">Início</a>
+        <a href="sobre.html">Quem Somos</a>
+        <a href="servicos.html">Soluções</a>
+        <a href="equipe.html">Equipe</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+      <button type="button" class="home-menu-button" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
+        <span class="home-menu-bars" aria-hidden="true"></span>
+      </button>
     </div>
   </header>
 
-  <nav>
-    <a href="index.html" class="active">Home</a>
-    <a href="apresentacao.html">Apresentação</a>
-    <a href="sobre.html">Sobre</a>
-    <a href="escopo.html">Escopo</a>
-    <a href="servicos.html">Serviços</a>
-    <a href="equipe.html">Equipe</a>
-    <a href="diferenciais.html">Diferenciais</a>
-    <a href="beneficios.html">Benefícios</a>
-    <a href="consideracoes.html">Considerações</a>
-    <a href="blog.html">Blog</a>
-    <a href="parcerias.html">Parcerias</a>
-    <a href="contato.html">Contato</a>
-  </nav>
-
   <main>
     <section class="trust-section">
-      <h2>Autoridade, clareza e segurança para quem decide</h2>
-      <p class="lead"><strong>Abril de 2026</strong> — A GDZ une experiência prática, atendimento consultivo e foco em continuidade para apoiar empresas que precisam de segurança, estabilidade e evolução tecnológica com confiança.</p>
+      <h2>Apoio especializado à sua estrutura de TI</h2>
+      <p class="lead"><strong>ctrlNexus</strong> apoia empresas que precisam de mais segurança, estabilidade e continuidade para sustentar o crescimento sem perder controle do ambiente de TI.</p>
+      <div class="cta-actions" style="margin-bottom: 24px;">
+        <a href="contato.html" class="btn btn-primary">Falar com a ctrlNexus</a>
+        <a href="servicos.html" class="btn btn-light">Ver soluções</a>
+      </div>
       <div class="stats-grid">
         <article class="stat-card">
           <span class="kicker">Infraestrutura</span>
-          <strong><span class="counter" data-counter="4">0</span> frentes</strong>
-          <span>segurança, redes, cloud e continuidade integradas em uma só visão</span>
+          <strong>Redes seguras</strong>
+          <span>Ambientes organizados para operar com mais desempenho, controle e previsibilidade.</span>
         </article>
         <article class="stat-card">
-          <span class="kicker">Disponibilidade</span>
-          <strong><span class="counter" data-counter="24">0</span>x7</strong>
-          <span>mentalidade de monitoramento, resposta e sustentação contínua</span>
+          <span class="kicker">Segurança</span>
+          <strong>Proteção ativa</strong>
+          <span>Revisão de acessos, fortalecimento do ambiente e redução da exposição a risco.</span>
         </article>
         <article class="stat-card">
-          <span class="kicker">Credibilidade</span>
-          <strong><span class="counter" data-counter="98">0</span>%</strong>
-          <span>foco em satisfação, clareza técnica e confiança na operação</span>
+          <span class="kicker">Continuidade</span>
+          <strong>Menos impacto</strong>
+          <span>Prevenção, resposta e sustentação para a operação seguir estável no dia a dia.</span>
         </article>
         <article class="stat-card">
-          <span class="kicker">Consultoria</span>
-          <strong><span class="counter" data-counter="100">0</span>%</strong>
-          <span>abordagem personalizada, com diagnóstico e evolução contínua</span>
+          <span class="kicker">Suporte</span>
+          <strong>Atendimento consultivo</strong>
+          <span>Atuação próxima para apoiar prioridades, evolução técnica e decisão com clareza.</span>
         </article>
       </div>
     </section>
 
     <section>
-      <h2>Problemas que resolvemos</h2>
-      <p class="lead">A GDZ atua nos pontos que mais impactam a operação: riscos de segurança, instabilidade, falta de visibilidade, backup sem validação e ambientes que cresceram sem governança.</p>
-      <div class="problem-grid">
-        <article class="problem-card problem-card--image problem-card--rede" style="background-image: linear-gradient(180deg, rgba(2, 6, 23, 0.08) 0%, rgba(2, 6, 23, 0.44) 48%, rgba(2, 6, 23, 0.90) 100%), url('img/Rede%20inst%C3%A1vel%20ou%20lenta.png');">
-          <span class="icon-badge">⚠️</span>
-          <h3>Rede instável ou lenta</h3>
-          <p>Identificamos gargalos, falhas de arquitetura e pontos que prejudicam desempenho e disponibilidade.</p>
-        </article>
-        <article class="problem-card problem-card--image problem-card--visibilidade" style="background-image: linear-gradient(180deg, rgba(2, 6, 23, 0.08) 0%, rgba(2, 6, 23, 0.44) 48%, rgba(2, 6, 23, 0.90) 100%), url('img/Ambiente%20sem%20visibilidade.png');">
-          <span class="icon-badge">👁️</span>
-          <h3>Ambiente sem visibilidade</h3>
-          <p>Estruturamos monitoramento e indicadores para antecipar falhas e apoiar decisões técnicas.</p>
-        </article>
-        <article class="problem-card problem-card--image problem-card--riscos" style="background-image: linear-gradient(180deg, rgba(2, 6, 23, 0.08) 0%, rgba(2, 6, 23, 0.44) 48%, rgba(2, 6, 23, 0.90) 100%), url('img/Riscos%20de%20seguran%C3%A7a.png');">
-          <span class="icon-badge">🔐</span>
-          <h3>Riscos de segurança</h3>
-          <p>Revisamos acessos, firewall, políticas e vulnerabilidades para reduzir exposição e aumentar controle.</p>
-        </article>
-        <article class="problem-card problem-card--image problem-card--backup" style="background-image: linear-gradient(180deg, rgba(2, 6, 23, 0.02) 0%, rgba(2, 6, 23, 0.34) 48%, rgba(2, 6, 23, 0.88) 100%), url('img/Backup%20sem%20valida%C3%A7%C3%A3o.jpg');">
-          <span class="icon-badge">💾</span>
-          <h3>Backup sem validação</h3>
-          <p>Apoiamos a criação de rotinas de backup, testes de recuperação e planos de continuidade.</p>
-        </article>
-        <article class="problem-card problem-card--image problem-card--cloud-governanca" style="background-image: linear-gradient(180deg, rgba(2, 6, 23, 0.08) 0%, rgba(2, 6, 23, 0.44) 48%, rgba(2, 6, 23, 0.90) 100%), url('img/Cloud%20sem%20governan%C3%A7a.png');">
-          <span class="icon-badge">☁️</span>
-          <h3>Cloud sem governança</h3>
-          <p>Organizamos ambientes em nuvem com foco em segurança, custo, desempenho e crescimento.</p>
-        </article>
-        <article class="problem-card problem-card--image problem-card--evolucao" style="background-image: linear-gradient(180deg, rgba(2, 6, 23, 0.08) 0%, rgba(2, 6, 23, 0.44) 48%, rgba(2, 6, 23, 0.90) 100%), url('img/TI%20sem%20plano%20de%20evolu%C3%A7%C3%A3o.jpeg');">
-          <span class="icon-badge">🧭</span>
-          <h3>TI sem plano de evolução</h3>
-          <p>Transformamos riscos e necessidades em um plano de ação claro, priorizado e executável.</p>
-        </article>
-      </div>
-    </section>
-
-    <section>
-      <h2>Soluções estratégicas para proteger e sustentar sua operação</h2>
-      <p class="lead">Conheça as principais frentes de atuação da GDZ em segurança da informação, redes, cloud, backup, continuidade e gestão de acessos.</p>
+      <h2>Soluções para sustentar, proteger e evoluir sua operação</h2>
+      <p class="lead">Conheça as principais frentes de atuação da ctrlNexus em segurança, redes, monitoramento, cloud, backup e continuidade operacional.</p>
       <div class="feature-grid feature-grid--3">
-        <a href="servico-seguranca-informacao.html" class="feature-link">
-          <div class="feature feature--image" style="background-image: linear-gradient(180deg, rgba(2, 6, 23, 0.10) 0%, rgba(2, 6, 23, 0.48) 48%, rgba(2, 6, 23, 0.90) 100%), url('img/seguranca-da-informacao.png');">
-            <span class="icon-badge">🔐</span>
-            <h3>Segurança da Informação</h3>
-            <p>Políticas, hardening, análise de vulnerabilidades e proteção dos ativos digitais.</p>
-          </div>
+        <a href="servicos.html#seguranca" class="feature-link">
+          <article class="feature feature--image" style="background-image: linear-gradient(180deg, rgba(2, 6, 23, 0.10) 0%, rgba(2, 6, 23, 0.48) 48%, rgba(2, 6, 23, 0.90) 100%), url('img/seguranca-da-informacao-otimizado.jpg');">
+            <span class="icon-badge">Segurança</span>
+            <h3>Cibersegurança e proteção de dados</h3>
+            <p>Políticas, controles, revisão de acessos e fortalecimento do ambiente digital.</p>
+          </article>
         </a>
-        <a href="servico-firewall-rede.html" class="feature-link">
-          <div class="feature feature--image" style="background-image: linear-gradient(180deg, rgba(2, 6, 23, 0.10) 0%, rgba(2, 6, 23, 0.48) 48%, rgba(2, 6, 23, 0.90) 100%), url('img/firewall-e-protecao-de-rede.jpg');">
-            <span class="icon-badge">🛡️</span>
-            <h3>Firewall e Proteção de Rede</h3>
-            <p>Regras, segmentação, VPN e revisão do perímetro para reduzir exposição.</p>
-          </div>
+        <a href="servicos.html#redes" class="feature-link">
+          <article class="feature feature--image" style="background-image: linear-gradient(180deg, rgba(2, 6, 23, 0.10) 0%, rgba(2, 6, 23, 0.48) 48%, rgba(2, 6, 23, 0.90) 100%), url('img/infraestrutura-redes-otimizado.jpg');">
+            <span class="icon-badge">Redes</span>
+            <h3>Sustentação de redes seguras</h3>
+            <p>Planejamento, organização, desempenho e continuidade para a operação corporativa.</p>
+          </article>
         </a>
-        <a href="servico-infraestrutura-redes.html" class="feature-link">
-          <div class="feature feature--image" style="background-image: linear-gradient(180deg, rgba(2, 6, 23, 0.10) 0%, rgba(2, 6, 23, 0.48) 48%, rgba(2, 6, 23, 0.90) 100%), url('img/infraestrutura-de-redes.jpeg');">
-            <span class="icon-badge">🌐</span>
-            <h3>Infraestrutura de Redes</h3>
-            <p>Projetos cabeados e sem fio com foco em desempenho, escala e disponibilidade.</p>
-          </div>
-        </a>
-        <a href="servico-monitoramento-rede.html" class="feature-link">
-          <div class="feature feature--image" style="background-image: linear-gradient(180deg, rgba(2, 6, 23, 0.10) 0%, rgba(2, 6, 23, 0.48) 48%, rgba(2, 6, 23, 0.90) 100%), url('img/Monitoramento%20de%20rede.png');">
-            <span class="icon-badge">📡</span>
-            <h3>Monitoramento de Rede</h3>
-            <p>Acompanhamento contínuo para antecipar falhas, gargalos e indisponibilidades.</p>
-          </div>
-        </a>
-        <a href="servico-cloud.html" class="feature-link">
-          <div class="feature feature--image" style="background-image: linear-gradient(180deg, rgba(2, 6, 23, 0.10) 0%, rgba(2, 6, 23, 0.48) 48%, rgba(2, 6, 23, 0.90) 100%), url('img/solucoes-em-cloud.jpg');">
-            <span class="icon-badge">☁️</span>
-            <h3>Soluções em Cloud</h3>
-            <p>Migração, governança e sustentação de ambientes híbridos e públicos.</p>
-          </div>
-        </a>
-        <a href="servico-backup-continuidade.html" class="feature-link">
-          <div class="feature feature--image" style="background-image: linear-gradient(180deg, rgba(2, 6, 23, 0.10) 0%, rgba(2, 6, 23, 0.48) 48%, rgba(2, 6, 23, 0.90) 100%), url('img/backup-e-continuidade.jpg');">
-            <span class="icon-badge">💾</span>
-            <h3>Backup e Continuidade</h3>
-            <p>Estratégias de recuperação e resiliência para manter a operação funcionando.</p>
-          </div>
-        </a>
-        <a href="servico-gestao-acessos.html" class="feature-link">
-          <div class="feature feature--image" style="background-image: linear-gradient(180deg, rgba(2, 6, 23, 0.10) 0%, rgba(2, 6, 23, 0.48) 48%, rgba(2, 6, 23, 0.90) 100%), url('img/gestao-de-acessos.jpg');">
-            <span class="icon-badge">👥</span>
-            <h3>Gestão de Acessos</h3>
-            <p>Controle de identidades, permissões e níveis de acesso com rastreabilidade.</p>
-          </div>
+        <a href="servicos.html#monitoramento" class="feature-link">
+          <article class="feature feature--image" style="background-image: linear-gradient(180deg, rgba(2, 6, 23, 0.10) 0%, rgba(2, 6, 23, 0.48) 48%, rgba(2, 6, 23, 0.90) 100%), url('img/monitoramento-de-rede-otimizado.jpg');">
+            <span class="icon-badge">Monitoramento</span>
+            <h3>Monitoramento e suporte contínuo</h3>
+            <p>Acompanhamento constante para antecipar incidentes e reduzir indisponibilidades.</p>
+          </article>
         </a>
       </div>
     </section>
@@ -211,190 +161,123 @@
     <section>
       <h2>Como trabalhamos</h2>
       <p class="lead">Nossa atuação combina diagnóstico técnico, priorização e execução prática para que cada melhoria tenha impacto real na segurança, disponibilidade e eficiência da operação.</p>
-      <div class="process-grid process-grid--timeline">
+      <div class="process-grid">
         <article class="process-step">
-          <span class="kicker">01 • Diagnóstico</span>
-          <h3>Entendimento do ambiente</h3>
-          <p>Mapeamos infraestrutura, riscos, dependências, acessos, backup e pontos críticos da operação.</p>
+          <span class="kicker">01 / Diagnóstico</span>
+          <p>Mapeamos infraestrutura, riscos, dependências e pontos críticos para entender o ambiente com clareza.</p>
         </article>
         <article class="process-step">
-          <span class="kicker">02 • Plano de ação</span>
-          <h3>Prioridades claras</h3>
-          <p>Organizamos as melhorias por impacto, urgência e viabilidade para orientar decisões com segurança.</p>
+          <span class="kicker">02 / Prioridades</span>
+          <p>Organizamos as melhorias por impacto, urgência e viabilidade para orientar as decisões com segurança.</p>
         </article>
         <article class="process-step">
-          <span class="kicker">03 • Implementação</span>
-          <h3>Execução com boas práticas</h3>
-          <p>Aplicamos as mudanças com documentação, validação técnica e cuidado para reduzir risco operacional.</p>
+          <span class="kicker">03 / Implementação</span>
+          <p>Aplicamos as mudanças com boas práticas, documentação e cuidado para reduzir risco operacional.</p>
         </article>
         <article class="process-step">
-          <span class="kicker">04 • Monitoramento</span>
-          <h3>Visibilidade contínua</h3>
-          <p>Acompanhamos disponibilidade, desempenho e eventos para identificar falhas antes que virem impacto.</p>
-        </article>
-        <article class="process-step">
-          <span class="kicker">05 • Evolução</span>
-          <h3>Melhoria contínua</h3>
-          <p>Revisamos indicadores e próximos passos para manter o ambiente alinhado ao crescimento do negócio.</p>
+          <span class="kicker">04 / Sustentação</span>
+          <p>Acompanhamos o ambiente para manter desempenho, visibilidade e evolução contínua no dia a dia.</p>
         </article>
       </div>
     </section>
 
     <section>
-      <h2>Equipe e atuação consultiva</h2>
-      <p class="lead">A GDZ conta com profissionais experientes em segurança da informação, infraestrutura, cloud e continuidade operacional para apoiar empresas em ambientes que exigem confiança e alta disponibilidade.</p>
-      <div class="media-grid">
-        <article class="media-card">
-          <img src="img/denis.jpg" alt="Denis Dourado Leite, liderança técnica da GDZ Consultoria">
-          <h3>Liderança técnica e consultiva</h3>
-          <p>Experiência em infraestrutura, segurança, projetos e governança para ambientes de alta criticidade.</p>
+      <h2>Quem somos</h2>
+      <p class="lead">A ctrlNexus combina expertise técnica, visão consultiva e proximidade para transformar a infraestrutura de TI da sua empresa em uma base mais segura, eficiente e escalável.</p>
+      <div class="cards-grid">
+        <article class="info-card">
+          <h3>Especialização com foco no negócio</h3>
+          <p>Nossa equipe atua para alinhar segurança, desempenho e continuidade operacional à realidade de cada cliente.</p>
         </article>
-        <article class="media-card">
-          <img src="img/gabriel.jpg" alt="Gabriel Dourado Zuculin, especialista em infraestrutura e cloud da GDZ Consultoria">
-          <h3>Especialização prática em cloud e operação</h3>
-          <p>Atuação em redes, automação, observabilidade, backup e sustentação com foco em eficiência real.</p>
+        <article class="info-card">
+          <h3>Atendimento ágil e confiável</h3>
+          <p>Nosso compromisso é oferecer suporte claro, responsável e presente para apoiar crescimento com previsibilidade.</p>
         </article>
+        <article class="info-card">
+          <h3>Evolução sustentável</h3>
+          <p>Mais do que resolver incidentes, estruturamos melhorias contínuas para acompanhar as demandas do negócio.</p>
+        </article>
+      </div>
+      <div class="cta-actions" style="margin-top: 22px;">
+        <a href="sobre.html" class="btn btn-light">Saiba mais</a>
       </div>
     </section>
 
-    <section class="highlight premium-proof">
-      <h2>Parceiros, clientes e certificações em destaque</h2>
-      <p>A GDZ atua com foco em relacionamento de longo prazo, integração de soluções e visão consultiva para ambientes corporativos que exigem segurança, estabilidade e evolução contínua.</p>
-      <div class="partner-grid" aria-label="Áreas de atuação e relacionamento da GDZ">
-        <div class="partner-card">Saúde</div>
-        <div class="partner-card">Indústria</div>
-        <div class="partner-card">Serviços</div>
-        <div class="partner-card">Agronegócio</div>
-        <div class="partner-card">Cloud</div>
-        <div class="partner-card">Segurança</div>
-      </div>
-      <div class="award-grid">
-        <article class="award-card">
-          <span class="kicker">Reconhecimento técnico</span>
-          <p>Experiência prática em infraestrutura, segurança, backup, governança e continuidade operacional.</p>
-        </article>
-        <article class="award-card">
-          <span class="kicker">Setores atendidos</span>
-          <p>Atuação voltada a empresas que precisam proteger dados, manter disponibilidade e crescer com mais segurança.</p>
-        </article>
-        <article class="award-card">
-          <span class="kicker">Confiança e relacionamento</span>
-          <p>Parcerias construídas com proximidade, suporte consultivo e foco em resultados sustentáveis para o cliente.</p>
-        </article>
-      </div>
-      <div class="badge-row" aria-label="Credenciais e diferenciais">
-        <span class="badge">ITIL 4 Foundation</span>
-        <span class="badge">MBA em Gestão de Projetos</span>
-        <span class="badge">Boas práticas ISO 27001</span>
-        <span class="badge">Governança e DR</span>
-      </div>
-    </section>
-
-    <section>
-      <h2>Cases e histórias de sucesso</h2>
-      <p class="lead">Exemplos de iniciativas que ajudam empresas a reduzir risco, ganhar previsibilidade e sustentar a operação com mais tranquilidade.</p>
-      <div class="testimonial-grid">
-        <article class="testimonial">
-          <span class="kicker">Case 01 • Continuidade</span>
-          <p class="quote">Revisão da estratégia de backup e recuperação para diminuir indisponibilidades e acelerar a retomada da operação.</p>
-          <ul>
-            <li>Mapeamento de riscos e priorização dos sistemas críticos</li>
-            <li>Definição de RPO/RTO aderentes ao negócio</li>
-            <li>Mais previsibilidade para auditorias e tomadas de decisão</li>
-          </ul>
-        </article>
-        <article class="testimonial">
-          <span class="kicker">Case 02 • Segurança</span>
-          <p class="quote">Fortalecimento de firewall, acessos e políticas de rede para reduzir exposição e aumentar o controle sobre o ambiente.</p>
-          <ul>
-            <li>Segmentação lógica e revisão de permissões</li>
-            <li>Melhor visibilidade do tráfego e dos eventos críticos</li>
-            <li>Base mais sólida para conformidade e governança</li>
-          </ul>
-        </article>
-        <article class="testimonial">
-          <span class="kicker">Case 03 • Performance</span>
-          <p class="quote">Ajustes em monitoramento, capacidade e cloud para apoiar crescimento sem comprometer estabilidade.</p>
-          <ul>
-            <li>Identificação de gargalos com observabilidade contínua</li>
-            <li>Planejamento de expansão com menor risco operacional</li>
-            <li>Melhoria da experiência dos usuários internos e externos</li>
-          </ul>
-        </article>
+    <section class="brands-section">
+      <h2>Marcas e Fabricantes</h2>
+      <p class="section-intro">Trabalhamos com os principais fabricantes do mercado para entregar soluções robustas e confiáveis.</p>
+      <div class="brands-row">
+        <div class="brand-badge">
+          <svg viewBox="0 0 120 48" xmlns="http://www.w3.org/2000/svg" aria-label="CISCO">
+            <text x="60" y="34" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="800" fill="#1ba0d7" letter-spacing="2">CISCO</text>
+          </svg>
+        </div>
+        <div class="brand-badge">
+          <svg viewBox="0 0 120 48" xmlns="http://www.w3.org/2000/svg" aria-label="SOPHOS">
+            <text x="60" y="34" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="800" fill="#0095d5" letter-spacing="1">SOPHOS</text>
+          </svg>
+        </div>
+        <div class="brand-badge">
+          <svg viewBox="0 0 120 48" xmlns="http://www.w3.org/2000/svg" aria-label="ARUBA">
+            <text x="60" y="34" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="24" font-weight="800" fill="#ff6c00" letter-spacing="1">ARUBA</text>
+          </svg>
+        </div>
+        <div class="brand-badge">
+          <svg viewBox="0 0 140 48" xmlns="http://www.w3.org/2000/svg" aria-label="FORTINET">
+            <text x="70" y="34" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="800" fill="#ee2e24" letter-spacing="1">FORTINET</text>
+          </svg>
+        </div>
+        <div class="brand-badge">
+          <svg viewBox="0 0 130 48" xmlns="http://www.w3.org/2000/svg" aria-label="HUAWEI">
+            <text x="65" y="34" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="800" fill="#cf0a2c" letter-spacing="1">HUAWEI</text>
+          </svg>
+        </div>
       </div>
     </section>
 
-    <section>
-      <h2>Artigos e insights para sua empresa</h2>
-      <p class="lead">Conteúdo sobre segurança, cloud, continuidade e boas práticas para apoiar decisões técnicas e estratégicas no dia a dia da sua operação.</p>
-      <div class="blog-grid">
-        <article class="post-card">
-          <span class="kicker">Abr 2026 • Segurança</span>
-          <h3>Checklist de segurança da informação para PMEs</h3>
-          <p>Um roteiro prático para priorizar controles, reduzir exposição e amadurecer a governança do ambiente.</p>
-          <a href="blog.html#artigo-seguranca">Ler resumo</a>
-        </article>
-        <article class="post-card">
-          <span class="kicker">Abr 2026 • Continuidade</span>
-          <h3>Como desenhar backup e recuperação sem improviso</h3>
-          <p>Boas práticas para sair do básico e criar um plano realista de continuidade de negócio.</p>
-          <a href="blog.html#artigo-backup">Ler resumo</a>
-        </article>
-        <article class="post-card">
-          <span class="kicker">Abr 2026 • Cloud</span>
-          <h3>Cloud híbrida com governança e performance</h3>
-          <p>Entenda como equilibrar escalabilidade, custo e segurança em uma arquitetura moderna.</p>
-          <a href="blog.html#artigo-cloud">Ler resumo</a>
-        </article>
-      </div>
-    </section>
-
-    <section class="cta-panel">
-      <h2>Quer entender os riscos e oportunidades do seu ambiente de TI?</h2>
-      <p>Solicite um diagnóstico inicial para identificar prioridades, reduzir riscos e construir um plano prático de evolução para sua infraestrutura.</p>
-      <div class="hero-actions">
-        <a href="contato.html" class="primary">Solicitar diagnóstico inicial</a>
-        <a href="https://wa.me/5517991362933" target="_blank" rel="noopener" class="secondary">Atendimento online</a>
-      </div>
-    </section>
-
-    <section class="compliance-panel">
-      <h2>Privacidade, transparência e atendimento confiável</h2>
-      <p>Privacidade, clareza no tratamento das informações e canais de contato acessíveis fazem parte da experiência que a GDZ busca entregar em cada relacionamento.</p>
-      <div class="hero-actions">
-        <a href="privacidade.html" class="secondary">Ver privacidade e cookies</a>
-        <a href="contato.html" class="primary">Solicitar atendimento</a>
+    <section class="cta-band">
+      <h2>Quer modernizar sua operação de TI com mais segurança e previsibilidade?</h2>
+      <p class="section-intro">Converse com a ctrlNexus para entender prioridades, mapear riscos e estruturar um plano prático de melhoria para o seu ambiente.</p>
+      <div class="cta-actions">
+        <a href="contato.html" class="btn btn-primary">Solicitar diagnóstico</a>
+        <a href="sobre.html" class="btn btn-secondary">Ver quem somos</a>
       </div>
     </section>
   </main>
 
   <footer>
-    <div class="footer-meta" aria-label="Informações do rodapé">
-      <div class="footer-column">
-        <strong>Contato</strong>
-        <a href="mailto:gdzconsultoria@outlook.com">gdzconsultoria@outlook.com</a>
-        <a href="https://wa.me/5517991362933" target="_blank" rel="noopener">+55 (17) 99136-2933</a>
+    <div class="footer-shell">
+      <div class="footer-meta" aria-label="Informações do rodapé">
+        <div class="footer-column">
+          <div class="footer-brand">
+            <img src="img/logoBranco-small.png" alt="Ícone da ctrlNexus">
+            <strong>ctrlNexus</strong>
+          </div>
+          <span>Infraestrutura, segurança e sustentação de TI para empresas que precisam de estabilidade operacional.</span>
+        </div>
+        <div class="footer-column">
+          <strong>Navegação</strong>
+          <a href="index.html">Início</a>
+          <a href="sobre.html">Quem Somos</a>
+          <a href="servicos.html">Soluções</a>
+          <a href="equipe.html">Equipe</a>
+        </div>
+        <div class="footer-column">
+          <strong>Contato</strong>
+          <a href="mailto:gdzconsultoria@outlook.com">gdzconsultoria@outlook.com</a>
+          <a href="https://wa.me/5517991362933" target="_blank" rel="noopener">+55 (17) 99136-2933</a>
+        </div>
+        <div class="footer-column">
+          <strong>Atendimento</strong>
+          <span>Atendimento online e suporte consultivo para empresas em todo o Brasil.</span>
+          <a href="contato.html">Solicitar diagnóstico</a>
+        </div>
       </div>
-      <div class="footer-column">
-        <strong>Atendimento</strong>
-        <span>Atendimento online para empresas em todo o Brasil.</span>
-        <a href="contato.html">Solicitar atendimento</a>
-      </div>
-      <div class="footer-column">
-        <strong>Privacidade</strong>
-        <span>Transparência no tratamento das informações.</span>
-        <a href="privacidade.html">Privacidade e cookies</a>
-      </div>
-      <div class="footer-column">
-        <strong>Localização</strong>
-        <span>Com sede em São José do Rio Preto, atendemos clientes em todo o Brasil, oferecendo soluções tecnológicas que entregam resultados com qualidade e inovação.</span>
-      </div>
+      <p class="footer-copy">&copy; <span id="year"></span> ctrlNexus. Todos os direitos reservados.</p>
     </div>
-    <p>© <span id="year"></span> GDZ Consultoria. Todos os direitos reservados.</p>
   </footer>
 
-  <a href="https://wa.me/5517991362933" target="_blank" rel="noopener" class="whatsapp" aria-label="WhatsApp">💬</a>
-  <script src="js/script.min.js?v=20260409-5"></script>
+  <a href="https://wa.me/5517991362933" target="_blank" rel="noopener" class="whatsapp" aria-label="WhatsApp"><span class="sr-only">WhatsApp</span></a>
+  <script src="js/script.js?v=20260424-14"></script>
 </body>
 </html>
-

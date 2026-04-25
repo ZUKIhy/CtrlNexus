@@ -1,6 +1,6 @@
 # Como Contribuir
 
-Obrigado por seu interesse em contribuir com o site da GDZ Consultoria!
+Obrigado por seu interesse em contribuir com o site da ctrlNexus!
 
 ## Como contribuir
 
@@ -26,4 +26,4 @@ Obrigado por seu interesse em contribuir com o site da GDZ Consultoria!
 
 ## Contato
 
-Para dúvidas, entre em contato: contato@gdzconsultoria.com.br
+Para dúvidas, entre em contato: gdzconsultoria@outlook.com

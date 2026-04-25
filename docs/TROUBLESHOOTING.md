@@ -46,4 +46,4 @@
 
 Para ajuda adicional:
 - Abra uma issue no GitHub
-- Envie email para contato@gdzconsultoria.com.br
+- Envie email para gdzconsultoria@outlook.com

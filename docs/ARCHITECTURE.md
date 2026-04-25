@@ -3,7 +3,7 @@
 ## Estrutura de Arquivos
 
 ```
-gdz-consultoria/
+ctrlnexus/
 ├── index.html              # Página inicial
 ├── equipe.html             # Página da equipe
 ├── servicos.html           # Página de serviços

@@ -2,7 +2,7 @@
 
 ## Origem
 
-O site da GDZ Consultoria foi criado em 2026 como parte da estratégia digital da empresa, especializada em soluções de TI para infraestrutura crítica, segurança e cloud computing.
+O site da ctrlNexus foi criado em 2026 como parte da estratégia digital da empresa, especializada em soluções de TI para infraestrutura crítica, segurança e cloud computing.
 
 ## Desenvolvimento
 
