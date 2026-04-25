@@ -1,0 +1,35 @@
+{
+  "name": "ctrlnexus",
+  "version": "1.0.0",
+  "description": "Site institucional da ctrlNexus",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "build": "echo 'Build process not needed for static site'",
+    "deploy": "echo 'Deploy to your hosting platform'",
+    "test": "echo 'Run manual tests - see docs/TESTING.md'",
+    "lint": "echo 'No linting configured yet'"
+  },
+  "keywords": [
+    "consultoria",
+    "seguranca",
+    "infraestrutura",
+    "cloud",
+    "ti",
+    "website",
+    "static-site"
+  ],
+  "author": "ctrlNexus",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZUKIhy/CtrlNexus.git"
+  },
+  "homepage": "https://ctrlnexus.com.br/",
+  "bugs": {
+    "url": "https://github.com/ZUKIhy/CtrlNexus/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

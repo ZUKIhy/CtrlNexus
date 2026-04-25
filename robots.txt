@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ctrlnexus.com.br/sitemap.xml

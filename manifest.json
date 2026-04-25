@@ -1,0 +1,51 @@
+{
+  "name": "ctrlNexus | Infraestrutura, segurança e sustentação de TI",
+  "short_name": "ctrlNexus",
+  "description": "Apoio especializado em infraestrutura, segurança, cloud, backup e continuidade operacional para empresas.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#0f172a",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "pt-BR",
+  "categories": [
+    "business",
+    "productivity",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "img/logocrtlNexusicone-small.png",
+      "sizes": "192x192 512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Contato",
+      "short_name": "Contato",
+      "description": "Solicite um diagnóstico da ctrlNexus",
+      "url": "/contato.html",
+      "icons": [
+        {
+          "src": "img/logocrtlNexusicone-small.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Soluções",
+      "short_name": "Soluções",
+      "description": "Conheça as soluções da ctrlNexus",
+      "url": "/servicos.html",
+      "icons": [
+        {
+          "src": "img/logocrtlNexusicone-small.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

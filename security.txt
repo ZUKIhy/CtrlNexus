@@ -1,0 +1,6 @@
+Contact: mailto:gdzconsultoria@outlook.com
+Contact: https://ctrlnexus.com.br/contato.html
+Expires: 2027-04-25T00:00:00.000Z
+Preferred-Languages: pt-BR, en
+Canonical: https://ctrlnexus.com.br/.well-known/security.txt
+Policy: https://ctrlnexus.com.br/docs/SECURITY.md

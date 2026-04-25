@@ -1,0 +1,29 @@
+# Arquivos temporários
+*.tmp
+*.temp
+*.log
+
+# Diretórios de cache
+.cache/
+node_modules/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de backup
+*.bak
+*.swp
+*.swo
+
+# Arquivos de desenvolvimento
+.vscode/
+.idea/
+
+# Arquivos de build
+dist/
+build/
+
+# Arquivos de configuração local
+.env
+config.local.json
