@@ -563,8 +563,8 @@ h1 {
 }
 
 .home-brand-logo {
-  width: min(560px, 76vw);
-  max-height: 150px;
+  width: min(330px, 42vw);
+  max-height: 92px;
   height: auto;
   object-fit: contain;
   object-position: left center;
@@ -816,7 +816,7 @@ h1 {
 .page-header--home .carousel-slide h2 {
   max-width: 900px;
   margin-top: 10px;
-  font-size: clamp(2.6rem, 7vw, 6.3rem);
+  font-size: clamp(2.6rem, 5.6vw, 5rem);
   line-height: 0.96;
   color: #ff9d00;
   text-shadow: 0 6px 18px rgba(0, 0, 0, 0.32);
@@ -2349,7 +2349,7 @@ footer {
 
   .home-page .theme-toggle {
     right: auto;
-    left: clamp(124px, 58vw, 282px);
+    left: clamp(132px, 50vw, 250px);
     background: rgba(7, 20, 36, 0.92);
     border-color: rgba(255, 255, 255, 0.16);
     color: #ffffff;
@@ -2363,12 +2363,13 @@ footer {
 
 @media (max-width: 360px) {
   .home-brand-logo {
-    width: min(128px, 50vw);
+    width: min(132px, 50vw);
   }
 
   .home-page .theme-toggle {
     left: auto;
-    right: 62px;
+    top: 64px;
+    right: 12px;
   }
 
   .home-menu-button {
